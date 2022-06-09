@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('cse.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  .nav{
+      background: black;
+      color: white;
+      padding:1em;
+      width:100vw;
+  }
+  li{
+      display: inline-block;
+      padding: 0.5em;
+      font-size:1.3rem;
+  }
+  #intro {
+      position: relative;
+      top:8vh;
+      text-align: center;
+      color: aqua;
+      font-size:2.5em;
+      font-family: cursive;
+
+  }
+  #choose{
+      position: relative;
+      top:10vh;
+      font-size:1.5em;
+      left:5vw;
+      font-style:oblique;
+      font-weight:bold;
+      color:rgb(232, 234, 214);
+      
+  }
+  /* .button{
+      position: relative;
+      top:20vh;
+  } */
+
+#b1{
+    position:absolute;
+    top:40vh;
+    left:14vw;
+}
+#b2{
+    position:absolute;
+    top:40vh;
+    left:46vw;
+}
+#b3{
+    position:absolute;
+    top:50vh;
+    left:14vw;
+}
+
+#b4{
+    position:absolute;
+    top:50vh;
+    left:46vw;
+}
+
+#b5{
+    position:absolute;
+    top:60vh;
+    left:14vw;
+}
+
+#b6{
+    position:absolute;
+    top:60vh;
+    left:46vw;
+}
+#b7{
+    position:absolute;
+    top:70vh;
+    left:14vw;
+}
+#b8{
+    position:absolute;
+    top:70vh;
+    left:46vw;
+}
+.button {
+    background-color: #07f8e4;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

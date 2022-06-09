@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ez Material</title>
+    <link rel="stylesheet" type="text/css" href="welcome.css">
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+          <ul>
+              <li>Home</li>
+              <li>Contact</li>
+              <li>About</li>
+              <li>Feedback</li>
+          </ul>
+      </nav>
+      </div>
+      <div class="img">
+    <h1>Welcome to Ez Material</h1>
+    <div class="intro">
+        <p id="p1">
+            This website is designed for engineering students to provide 
+            them notes of all subject irrespective of their branch and year.
+        </p>
+        <p id = "p2">
+            You have to first choose your branch then you will be redirected
+            to another page where you have to choose your year.<br> Then all related subject will appear
+            in another and you can simply view or download the pdf.
+        </p>
+    </div>
+    <br><br><br>
+    <h3>Choose your branch</h3>
+    <div id="branch">
+        <button id="Cse">Computer science and engineering</button>
+        <button id="It">Information Technology</button>
+        <button id="Ece">Electronics and communincation</button>
+        <button id="EE">Electrical Engineering</button>
+        <button id="Ce">Civil Engineering</button>
+        <button id="AEIE">Applied Electronics & Instrumentation Engineering</button>
+    </div>
+</div>
+    <script type="text/javascript">
+        document.getElementById("Cse").onclick=function(){
+            window.location.href="cseSem.html";
+        }
+        document.getElementById("It").onclick=function(){
+            window.location.href="itSem.html";
+        }
+        document.getElementById("Ece").onclick=function(){
+            window.location.href="eceSem.html";
+        }
+        document.getElementById("EE").onclick=function(){
+            window.location.href="eeSem.html";
+        }
+        document.getElementById("Ce").onclick=function(){
+            window.location.href="ceSem.html";
+        }
+        document.getElementById("AEIE").onclick=function(){
+            window.location.href="aeieSem.html";
+        }
+    </script>
+</body>
+</html>
